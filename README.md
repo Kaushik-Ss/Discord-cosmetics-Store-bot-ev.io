@@ -8,5 +8,6 @@
 - My first working discord bot
 - Completed the bot within 3 days
 - Was blocked by Discord for testing the bot too quick 
+- Currently hosted in a replit free tire replit
 - Working on chat profainity filters 
 
