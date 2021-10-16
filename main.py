@@ -5,6 +5,7 @@ import json
 import datetime
 import asyncio
 import random
+import pprint
 from discord.ext import tasks
 from keep_alive import keep_alive
 from better_profanity import profanity
@@ -51,7 +52,7 @@ json_data = json.loads(page.text)
   
 @client.event
 async def on_message(message):
-    curseWord = ['fuck','fool','lol','duck','fishook','ribbons','weed',"rabbit","moderator","panda","ari",'rickrolls','cah','rickroll','mod','hax','hacks']
+    curseWord = ['fuck','fool','fishook','ribbons','weed',"rabbit","moderator","panda","ari",'rickrolls','cah','rickroll','mod','hax','hacks','bitch','crap','shit']
     curse_reply=['https://imgur.com/y8Ea8jB','https://i.kym-cdn.com/photos/images/original/002/090/742/7c7.jpg','https://tenor.com/bl0IR.gif','https://tenor.com/bfytM.gif']
     curse_random=random.choice(curse_reply)
     global k, page, j
@@ -59,6 +60,7 @@ async def on_message(message):
         global Temp
         k=str(message.content)[13:]
         Temp=k
+            
     if message.content.startswith("?store help"):
         embed = discord.Embed(title="ev.io", value=" :wave:", color=0x109319)
         embed.add_field(name="Help",
