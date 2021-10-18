@@ -167,7 +167,6 @@ async def on_message(message):
     # # delete curse word if match with the list
     for i in msg_content.split():
       if i in curseWord:
-        print(msg_content.split())
         await message.channel.send(curse_random)
     # text = msg_content
     # censored = profanity.censor(text,'$')
