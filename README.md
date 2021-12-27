@@ -15,6 +15,12 @@
 - Dynamically show time (24H format) updates every minute for various timezone and discord api to edit the message, this can be pinned in a server and it will never stop till the owner stops the code. Manually tweaked so as to avoid discord api access ban. So, it is safe to use.
 - Scraps ev.io/clans and dynamically displays the clan points against clan name overlayed upon an image used pillow python, refreshed every 10 minutes to avoid caching of data.
 
+#### Updates on Standby
+- Write text over custom image link
+- A motivation rooster invoked a command
+- Cross-hair scrapper from a player's username
+- Abilities identifier from a player's username
+
 
 #### Libraries Used
 - flask
